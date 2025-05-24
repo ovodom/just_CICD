@@ -44,3 +44,6 @@ jobs:
             cd ${{ secrets.EC2_PATH }}
             pkill -f "python3 app/main.py" || true
             nohup python3 app/main.py > output.log 2>&1 &
+
+
+  # we run this later
